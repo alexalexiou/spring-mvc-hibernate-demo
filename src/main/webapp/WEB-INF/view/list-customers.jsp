@@ -12,7 +12,7 @@
 <head>
     <title>List Customers</title>
 
-<%--    reference css file  -                        use proper app name--%>
+    reference css file  -                        use proper app name
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"/>
 
 </head>
@@ -30,8 +30,7 @@
 <%-- Button: add new customer -  window.lo... will call the controller's action--%>
         <input type="button" value="Add Customer"
                onclick="window.location.href='showFormForAdd'; return false;"
-               class="add-button"
-               />
+               class="add-button"/>
 
 
         <%--add html table--%>
